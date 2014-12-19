@@ -1,5 +1,5 @@
-bytes
-=======
+# bytes
+
 
 a small library of functions for handling byte arrays
 
@@ -12,3 +12,8 @@ need the functions provided here and do not want
 to include larger libraries.
 
 
+## documentation
+
+- [javadoc](http://jasonnet.github.io/bytes/javadoc/)
+
+ 

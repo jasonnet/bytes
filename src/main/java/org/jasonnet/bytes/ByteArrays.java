@@ -7,17 +7,9 @@ package org.jasonnet.bytes;
  */
 public class ByteArrays {
 	
-	/**
-	 * Find the location of the specified target sequence in the 
-	 * specified range of the specified ha 
-	 * 
-	 * @author ccjason (12/18/2014)
-	 * 
-	 * @param haystack 
-	 * @param idxStart 
-	 * @param idxEnd 
-	 * @param target 
-	 */
+	private ByteArrays() {
+	}
+
 	/**
 	 * Find the location of the specified needle sequence in the
 	 * specified range of the specified haystack sequence. 
