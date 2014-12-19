@@ -3,21 +3,18 @@ package org.jasonnet.bytes;
 /**
  * A set of helper functions for working with byte arrays.
  * 
- * @author ccjason (12/18/2014)
+ * @author jasonnet (12/18/2014)
  */
 public class ByteArrays {
 	
 	/**
-	 * Find the location of the specified target sequence in the 
-	 * specified range of the specified ha 
+	 * hiding default constructor by declaring it private.
 	 * 
-	 * @author ccjason (12/18/2014)
-	 * 
-	 * @param haystack 
-	 * @param idxStart 
-	 * @param idxEnd 
-	 * @param target 
+	 * @author jasonnet (12/19/2014)
 	 */
+	private ByteArrays() {
+	}
+
 	/**
 	 * Find the location of the specified needle sequence in the
 	 * specified range of the specified haystack sequence. 
@@ -30,9 +27,9 @@ public class ByteArrays {
 	 *  
 	 * To-do: (2014-12-18) This implementation could be made faster 
 	 * handling situations where the sequences are long and matches
-	 * often don't occur early the the haystack subsequence.
+	 * often don't occur early in the haystack subsequence.
 	 * 
-	 * @author ccjason (12/18/2014)
+	 * @author jasonnet (12/18/2014)
 	 * 
 	 * @param haystack the array in which to find the needle 
 	 *      	   sequence.
