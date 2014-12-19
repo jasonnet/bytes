@@ -1,2 +1,5 @@
 target/
 
+## for gh-pages
+#src/
+#pom.xml
