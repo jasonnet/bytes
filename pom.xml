@@ -2,23 +2,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.jasonnet</groupId>
-  <artifactId>jasonnet-cmdline</artifactId>
+  <artifactId>jasonnet-bytes</artifactId>
   <version>0.5.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>cmdline</name>
-  <description>Simple Java command line parser</description>
-  <url>https://github.com/jasonnet/cmdline</url>
+  <name>bytes</name>
+  <description>Simple Java byte array handling</description>
+  <url>https://github.com/jasonnet/bytes</url>
 
   <issueManagement>
-    <url>https://github.com/jasonnet/cmdline/issues</url>
+    <url>https://github.com/jasonnet/bytes/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
   <licenses>
       <license>
           <name>The MIT License</name>
-          <url>https://github.com/jasonnet/cmdline/blob/master/LICENSE</url>
+          <url>https://github.com/jasonnet/bytes/blob/master/LICENSE</url>
         </license>
   </licenses>
 
