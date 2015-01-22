@@ -69,8 +69,9 @@ public class ByteArrays {
 	 * 
 	 * @author ccjason (1/22/2015)
 	 * 
-	 * @param haystack 
-	 * @param needle 
+	 * @param haystack the array in which to find the needle 
+	 *      	   sequence.
+	 * @param needle the sequence to be found. 
 	 * 
 	 * @return boolean
 	 */
