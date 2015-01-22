@@ -62,4 +62,27 @@ public class ByteArrays {
 		}
 		return -1;
 	}
+
+	/**
+	 * Indicates if the specified haystack byte array ends with the 
+	 * specified needle byte array.
+	 * 
+	 * @author ccjason (1/22/2015)
+	 * 
+	 * @param haystack 
+	 * @param needle 
+	 * 
+	 * @return boolean
+	 */
+	static public boolean endsWith( byte haystack[],  byte needle[]) {
+		int idxNeedle = needle.length;
+		int idxHaystack = haystack.length;
+		if (idxNeedle>idxHaystack) return false;
+		while (true) {
+			idxNeedle--;  idxHaystack--;
+			if (needle[idxNeedle]!=haystack[idxHaystack]) return false;
+			if (idxNeedle==0) return true;
+		}
+	}
+
 }
