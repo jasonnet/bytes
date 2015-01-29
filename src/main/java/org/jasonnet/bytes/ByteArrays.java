@@ -67,7 +67,7 @@ public class ByteArrays {
 	 * Indicates if the specified haystack byte array ends with the 
 	 * specified needle byte array.
 	 * 
-	 * @author ccjason (1/22/2015)
+	 * @author jasonnet (1/22/2015)
 	 * 
 	 * @param haystack the array in which to find the needle 
 	 *      	   sequence.
