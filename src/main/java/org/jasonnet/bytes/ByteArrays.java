@@ -86,4 +86,29 @@ public class ByteArrays {
 		}
 	}
 
+	/**
+	 * Indicates if the specified haystack byte array at the 
+	 * specified position is equal to the specified needle byte 
+	 * array.
+	 * 
+	 * @author jasonnet (1/22/2015)
+	 * 
+	 * @param haystack the array in which to find the needle 
+	 *      	   sequence.
+	 * @param posInHayStack to check for a match
+	 * @param needle the sequence to be found. 
+	 * 
+	 * @return boolean
+	 */
+	static public boolean equalsAt( byte haystack[],  int posInHayStack, byte needle[] ) {
+		int idxNeedle = needle.length;
+		int idxHaystack = posInHayStack + needle.length;
+		if (idxHaystack>=haystack.length) return false;
+		while (true) {
+			idxNeedle--;  idxHaystack--;
+			if (needle[idxNeedle]!=haystack[idxHaystack]) return false;
+			if (idxNeedle==0) return true;
+		}
+	}
+
 }
