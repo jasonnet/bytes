@@ -22,11 +22,12 @@
         </license>
   </licenses>
 
-  <!-- scm>
-    <url>https://github.com/scalegraph/propelgraph</url>
-    <connection>scm:git:git://github.com/scalegraph/propelgraph.git</connection>
-    <developerConnection>scm:git:git@github.com:scalegraph/propelgraph.git</developerConnection>
-  </scm-->
+  <scm>
+    <url>https://github.com/jasonnet/bytes</url>
+    <connection>scm:git:https://github.com/jasonnet/bytes.git</connection>
+    <developerConnection>scm:git:git@github.com:jasonnet/bytes.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
 
 
   <developers>
@@ -38,7 +39,6 @@
     </developer>
   </developers>
 
-<!--- dependent pom.xml files will neeed this:
   <repositories>
       <repository>
           <id>jasonnetorg_releases</id>
@@ -53,7 +53,7 @@
           <snapshots><enabled>true</enabled></snapshots>
       </repository>
   </repositories>
--->
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -86,6 +86,12 @@
 	    </execution>
 	  </executions>
 	</plugin-->
+	<plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
+	</plugin>
+
 	<plugin>
 	  <groupId>org.apache.maven.plugins</groupId>
 	  <artifactId>maven-site-plugin</artifactId>
