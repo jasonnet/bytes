@@ -3,7 +3,7 @@
 
   <groupId>org.jasonnet</groupId>
   <artifactId>jasonnet-bytes</artifactId>
-  <version>0.5.0</version>
+  <version>0.5.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>bytes</name>
@@ -26,7 +26,7 @@
     <url>https://github.com/jasonnet/bytes</url>
     <connection>scm:git:https://github.com/jasonnet/bytes.git</connection>
     <developerConnection>scm:git:git@github.com:jasonnet/bytes.git</developerConnection>
-    <tag>jasonnet-bytes-0.5.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
 
